@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <style>
+            div{
+                border: 1px solid
+            }
+            #main{
+               
+            }
+            #header{
+               background-color:rgb(143, 145, 162);
+               position: sticky;
+               top:0;
+               height:10%;
+            }
+            #footer{
+                background-color:rgb(143, 145, 162);
+                height:10%;
+            }
+            #left{
+                background-color:rgb(148, 176, 218);
+                float:left;
+                width:20%;
+                height:80%;
+            }
+            #right{
+                background-color:rgb(220, 237, 255);
+                height:80%;
+            }
+            #menu_item{
+                height: 50px;
+            }
+            .product-grid {
+      display: grid;
+      grid: auto / repeat(4, 1fr);
+      grid-gap: 40px 40px;
+ }
+ .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 10px;
+                background-color: rgb(220, 237, 255);
+                padding: 10px;
+                border: 0px;
+              }
+              
+              .grid-container > div {
+                background-color: rgb(143, 145, 162);
+                text-align: center;
+                padding: 30px;
+                font-size: 30px;
+              }
+           
+              
+              
+        </style>
+    </head>
+<body>
+    <div id="main" >
+        <div id="header">
+            
+            <img src="logo.png"  height="70px" width="150px"style="float:left;" >
+            <p  style="font-family: Helvetica; font-size:30px" >My shop</p>
+        </div>
+        <div id="left">
+            <div id="menu_item">Electronics</div>
+            <div id="menu_item">Health and Beauty</div>
+            <div id="menu_item">Mens Fashion</div>
+            <div id="menu_item">Womens Fashion</div>
+            <div id="menu_item">Sports</div>
+            <div id="menu_item">Groceries</div>
+        </div>
+        <div id="right">
+           
+              </head>
+              <body>
+              
+              <h1>Grid Lines</h1>
+              
+              <div class="grid-container">
+                <div class="item1"><img src="img.jpg" style=" height: 50px;
+                    width:50px;"></div>
+                <div class="item2"><img src="img.jpg" style=" height: 50px;
+                    width:50px;"></div>
+                <div class="item3"><img src="img.jpg" style=" height: 50px;
+                    width:50px;"></div>  
+                <div class="item4">4</div>
+                <div class="item5">5</div>
+                <div class="item6">6</div>
+                <div class="item7">7</div>
+                <div class="item8">8</div>  
+                <div class="item9">9</div>  
+              </div>
+
+        </div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
